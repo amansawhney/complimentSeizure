@@ -2,89 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d11c992-92c2-4212-aa48-8aa8fadf4009" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/flat-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/flat-ui.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/flat-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/glyphicons/flat-ui-icons-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/glyphicons/flat-ui-icons-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/glyphicons/flat-ui-icons-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/glyphicons/flat-ui-icons-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/glyphicons/selection.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bolditalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bolditalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bolditalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-bolditalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/fonts/lato/lato-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Calendar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Chat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Clipboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Compas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Gift-Box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Infinity-Loop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Pensils.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Pocket.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Retina-Ready.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Toilet-Paper.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/png/Watches.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/calendar.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/chat.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/clipboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/clocks.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/compas.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/gift-box.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/loop.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/mail.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/map.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/paper-bag.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/pencils.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/retina.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/ribbon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/icons/svg/toilet-paper.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/login/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/login/imac-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/login/imac.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/tile/ribbon-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/img/tile/ribbon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/flat-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/flat-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/html5shiv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/video-js.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flatUi/js/vendor/video.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -113,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -147,6 +64,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="23" />
@@ -178,6 +98,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-material-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-material-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complimentSeizure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-material-design" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1033000" />
+    <option name="totallyTimeSpent" value="1145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1177" extended-state="6" />
@@ -513,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
