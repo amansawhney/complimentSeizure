@@ -1,19 +1,12 @@
-/*body {*/
-    /*background-image: url("https://s-media-cache-ak0.pinimg.com/originals/54/00/22/54002247d385ace9de25dbb814e095de.gif");*/
-/*}*/
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/54/00/22/54002247d385ace9de25dbb814e095de.gif");
+}
 
 .card {
     padding: 2rem;
 }
 
 
-#myContainer {
-    width: 400px;
-    height: 400px;
-    position: relative;
-    background: yellow;
-}
 #myAnimation {
-
     position: absolute;
 }
