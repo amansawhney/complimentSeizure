@@ -22,14 +22,14 @@ body {
 
 
 .text{
-    color:#0072c5;
-    font:70px  'Raleway',Arial;
-    letter-spacing:20px;
-    position: absolute;
-    padding:20px 0;
+    color:#000;
+    font-size: 5em;
     text-align:center;
-    top:40%;
+    top:0%;
+    padding: 3rem;
     transition:all 1s;
+    position: absolute;
+
 }
 span{
     color:transparent;
@@ -37,14 +37,11 @@ span{
 }
 
 
-.text:hover span{
-    color:#0072c5;
-    text-shadow:none;
-}
+
 
 canvas {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 
