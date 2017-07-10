@@ -6,5 +6,6 @@ const links = ["almost as good as Aman","amazing","balancing machine", "ur the b
 
 function addCompliment() {
     link = links[Math.floor(Math.random() * links.length)];
+    window.scrollTo(0,document.body.scrollHeight);
     document.getElementById('complimentHolder').innerHTML += `<div class="text-center col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 ">  <div class="card">  <h1 class=""> ${link}</h1>  </div>  </div>`;
 }
