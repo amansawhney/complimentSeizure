@@ -36,141 +36,48 @@ $classesToAdd: 10;
     ._#{$i} { @include animationDelay($i * $interval); }
 }
 
+.loading {
+    display: inline-block;
+
+}
 
 #loading {
     width: 100vw;
     height: 100vh;
-    background: #20232D;
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 999; }
-#loading #preloader {
+h1 {
+    font-family: sans-serif;
     position: relative;
-    width: 100%;
-    height: 80px;
-    top: calc(50% - 50px);
-    text-align: center;
-    margin: 0 auto; }
-#loading #preloader:after {
-    content: "Compliments Incoming";
+    color: rgba(0, 0, 0, .3);
+    font-size: 4em
+}
+h1:before {
+    content: attr(data-text);
     position: absolute;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-    color: #4d515f;
-    letter-spacing: 1px;
-    top: 90px;
-    width: 100%;
-    left: 0;
-    right: 0;
-    height: 1px;
-    text-align: center; }
-#loading #preloader span {
-    position: absolute;
-    border: 8px solid #00c8aa;
-    border-top: 8px solid transparent;
-    border-radius: 999px; }
-#loading #preloader span:nth-child(1) {
-    width: 80px;
-    height: 80px;
-    left: calc(50% - 40px);
-    -webkit-animation: spin-1 1s infinite ease;
-    -moz-animation: spin-1 1s infinite ease;
-    animation: spin-1 1s infinite ease; }
-#loading #preloader span:nth-child(2) {
-    top: 20px;
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
-    -webkit-animation: spin-2 1s infinite ease;
-    -moz-animation: spin-2 1s infinite ease;
-    animation: spin-2 1s infinite ease; }
+    overflow: hidden;
+    max-width: 11em;
+    white-space: nowrap;
+    color: #fff;
+    animation: loading 2.5s linear;
+}
+.loader {
+    animation: spin 1s linear infinite;
+    display: inline-block;
+    padding-bottom: 4rem;
 
-@-webkit-keyframes spin-1 {
+}
+@keyframes loading {
     0% {
-        -webkit-transform: rotate(360deg);
-        opacity: 1; }
-    50% {
-        -webkit-transform: rotate(180deg);
-        opacity: 0.5; }
-    100% {
-        -webkit-transform: rotate(0deg);
-        opacity: 1; } }
-@-moz-keyframes spin-1 {
-    0% {
-        -moz-transform: rotate(360deg);
-        opacity: 1; }
-    50% {
-        -moz-transform: rotate(180deg);
-        opacity: 0.5; }
-    100% {
-        -moz-transform: rotate(0deg);
-        opacity: 1; } }
-@keyframes spin-1 {
-    0% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 1; }
-    50% {
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-        opacity: 0.5; }
-    100% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 1; } }
-@-webkit-keyframes spin-2 {
-    0% {
-        -webkit-transform: rotate(0deg);
-        opacity: 0.5; }
-    50% {
-        -webkit-transform: rotate(180deg);
-        opacity: 1; }
-    100% {
-        -webkit-transform: rotate(360deg);
-        opacity: 0.5; } }
-@-moz-keyframes spin-2 {
-    0% {
-        -moz-transform: rotate(0deg);
-        opacity: 0.5; }
-    50% {
-        -moz-transform: rotate(180deg);
-        opacity: 1; }
-    100% {
-        -moz-transform: rotate(360deg);
-        opacity: 0.5; } }
-@keyframes spin-2 {
-    0% {
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        transform: rotate(0deg);
-        opacity: 0.5; }
-    50% {
-        -webkit-transform: rotate(180deg);
-        -moz-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -o-transform: rotate(180deg);
-        transform: rotate(180deg);
-        opacity: 1; }
-    100% {
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-        transform: rotate(360deg);
-        opacity: 0.5; } }
+        max-width: 0;
+    }
+}
 
-
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
 @mixin textGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
 
