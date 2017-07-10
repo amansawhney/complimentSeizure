@@ -63,7 +63,7 @@ h1:before {
     animation: loading 2.5s linear;
 }
 .loader {
-    animation: spin 1s linear infinite;
+    animation: spin .5s linear infinite;
     display: inline-block;
     padding-bottom: 4rem;
 
