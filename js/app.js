@@ -18,5 +18,21 @@ function addCompliment() {
     window.scrollTo(0,document.body.scrollHeight);
     document.getElementById('complimentHolder').innerHTML += `<div class="text-center  col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 ">  <div class="card"> <div class="content" data-text="${link}">${link}</div> </div>`;
 }
-
-
+// $(window).load(function() {
+//     "use strict";
+//
+//     setTimeout(function () {
+//         $('#preloader').velocity({
+//
+//             opacity: "0",
+//
+//             complete: function () {
+//                 $("#loading").velocity("fadeOut", {
+//                     duration: 1000,
+//                     easing: [0.7, 0, 0.3, 1],
+//                 });
+//             }
+//         })
+//
+//     }, 1000);
+// }
