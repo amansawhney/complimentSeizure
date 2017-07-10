@@ -1,0 +1,95 @@
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/54/00/22/54002247d385ace9de25dbb814e095de.gif");
+}
+
+
+
+#myAnimation {
+    position: absolute;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+/*
+
+	Glitchy Text from https://css-tricks.com/glitch-effect-text-images-svg/
+
+  (TEXT) PARAMS
+  =================
+  1. Namespace
+  2. Intensity
+  3. Text color
+  4. Background color (flat)
+  5. Highlight #1 color
+  6. Highlight #2 color
+  7. Width (px)
+  8. Height (px)
+*/
+
+@mixin textGlitch($name, $intensity, $textColor, $background, $highlightColor1, $highlightColor2, $width, $height) {
+
+    color: $textColor;
+    position: relative;
+    $steps: $intensity;
+
+    // Ensure the @keyframes are generated at the root level
+    @at-root {
+        // We need two different ones
+        @for $i from 1 through 2 {
+            @keyframes #{$name}-anim-#{$i} {
+                @for $i from 0 through $steps {
+                    #{percentage($i*(1/$steps))} {
+                        clip: rect(
+                                        random($height)+px,
+                                        $width+px,
+                                        random($height)+px,
+                                        0
+                        );
+                    }
+                }
+            }
+        }
+    }
+    &:before,
+    &:after {
+        content: attr(data-text);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: $background;
+        clip: rect(0, 0, 0, 0);
+    }
+    &:after {
+        left: 2px;
+        text-shadow: -1px 0 $highlightColor1;
+        animation: #{$name}-anim-1 2s infinite linear alternate-reverse;
+    }
+    &:before {
+        left: -2px;
+        text-shadow: 2px 0 $highlightColor2;
+        animation: #{$name}-anim-2 3s infinite linear alternate-reverse;
+    }
+
+}
+
+
+
+.content {
+    color: #000;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    @include textGlitch("glitch", 17, #000, white, red, blue, 1084, 115);
+}
