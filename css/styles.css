@@ -15,33 +15,8 @@ body {
     align-items: center;
 }
 
-
-@import url(https://fonts.googleapis.com/css?family=Raleway:300);
-
-
-
-
-.text{
-    color:#000;
-    font-size: 5em;
-    text-align:center;
-    top:0%;
-    padding: 3rem;
-    transition:all 1s;
-    position: absolute;
-
+.card {
+    padding: 2rem;
+    margin: 2rem;
 }
-span{
-    color:transparent;
-    text-shadow:0 0 10px #222,0 0 20px #0072c5;
-}
-
-
-
-
-canvas {
-    width: 100%;
-    height: auto;
-}
-
 
